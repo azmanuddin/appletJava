@@ -1,6 +1,12 @@
 /**
  * Created by azman on 09/06/2014.
  */
+import java.util.Random;
+import java.applet.*;
+import java.awt.*;
+import java.awt.image.*;
+import java.lang.Math;
+import java.util.Random;
 /* the various kinds of (messages for transmission) signals are simulated here */
 class Signal
 {

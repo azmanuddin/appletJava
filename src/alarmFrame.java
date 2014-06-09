@@ -1,5 +1,10 @@
 import java.awt.*;
-
+import java.util.Random;
+import java.applet.*;
+import java.awt.*;
+import java.awt.image.*;
+import java.lang.Math;
+import java.util.Random;
 /**
  * Created by azman on 09/06/2014.
  */

@@ -1,16 +1,14 @@
 import java.util.Random;
+import java.applet.*;
+import java.awt.*;
+import java.awt.image.*;
+import java.lang.Math;
+import java.util.Random;
 
 /**
  * Created by azman on 09/06/2014.
  */
-/*
- *
- */
 
-
-/*
- *
- */
 class Station extends Thread {
 
     public static final int IDLE = 0;
@@ -49,10 +47,10 @@ class Station extends Thread {
     public void setSendRequest( boolean flag ) {
         mySendRequest = flag;
     }
-
     public int getState() {
         return myState;
     }
+
 
     public void setState(int x)
     {
@@ -136,4 +134,4 @@ class Station extends Thread {
         }
     }
 
-}/*
+}
